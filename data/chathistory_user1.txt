@@ -1,0 +1,150 @@
+**AI Response to the question:** 'who is this contract for?'
+
+ This contract is for ABC Agency, referred to as the "Authority," which is a Governance Agency. Thanks for asking!
+
+
+**AI Response to the question:** 'SLA'
+
+ The Service Level Agreement (SLA) lays out the specific commitments of the Service Provider in regards to service performance. Key points include:
+
+1. **System Availability (Uptime):** The expected uptime for covered systems is 99.9% per calendar month, excluding scheduled maintenance.
+2. **Incident Response and Resolution Targets:**
+   - P1 (System Down/Critical Failure): 
+     - Response Time: 15 minutes
+     - Resolution Time: 4 hours
+   - P2 (Major Degradation): 
+     - Response Time: 30 minutes
+     - Resolution Time: 8 business hours
+   - P3 (Minor Degradation): 
+     - Response Time: 1 hour
+     - Resolution Time: 48 business hours
+3. **Patching Cycle:** All critical security patches must be applied within 14 days of the vendor's official release.
+4. **Liquidated Damages:** If uptime falls below the agreed threshold, penalties apply (e.g., a penalty of 1.5% for each month of non-compliance).
+
+Thanks for asking!
+
+
+**AI Response to the question:** 'Can you tell me the SLA in the contract and present it in table format'
+
+ 
+ Sure! Here is the Service Level Agreement (SLA) from the contract presented in table format:
+
+| **Priority Level** | **Definition (Impact)**                               | **Required Response Time (Acknowledgement)** | **Required Resolution Time (Service Restoration)** |
+|-------------------|-----------------------------------------------------|----------------------------------------------|---------------------------------------------------|
+| P1                | System Down/Critical Failure. Total loss of service or major business function. | 15 minutes                                   | 4 hours                                            |
+| P2                | Major Degradation. Partial loss of service or severe impact on multiple users. | 30 minutes                                   | 8 business hours                                   |
+| P3                | Minor Degradation. Single-user issue or non-critical functionality. | 1 hour                                       | 48 business hours                                  |
+
+Thanks for asking!
+
+
+**AI Response to the question:** 'Who are the parties of the contract?'
+
+ 
+ The parties of the contract are ABC Agency (the "Authority") and TECHSERVE GLOBAL SOLUTIONS (the "Service Provider"). 
+
+Thanks for asking!
+
+
+**AI Response to the question:** 'What is the scope of service in this contract?'
+
+ The scope of service in this contract includes the following:
+
+1. **Covered Systems**: The Service Provider is to provide comprehensive maintenance and support services for the Authority's Core Financial Systems, specifically the General Ledger and Accounts Payable Modules. This includes support for the associated three Production Servers and the primary network switching infrastructure as identified in Schedule A.
+
+2. **Exclusions**: The contract specifically excludes support for:
+   - End-user hardware (such as laptops, desktops, and printers).
+   - Third-party vendor licensing issues.
+   - System upgrades that require a major license revision.
+
+Thanks for asking!
+
+**AI Response to the question:** 'Who is the supplier of the contract?'
+
+ The supplier of the contract is TECHSERVE GLOBAL SOLUTIONS, which is referred to as the "Service Provider" in the agreement. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'Where does the supplier locate?'
+
+ The supplier, TECHSERVE GLOBAL SOLUTIONS, is located at 77 Technology Drive, Innovation Tower, Level 22, Singapore 654321. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'How many types of termination are there?'
+
+ There are three types of termination mentioned in the provided context: 
+
+1. Termination for Convenience (Notice Period) - Either party can terminate the agreement with a minimum of 60 days prior written notice.
+2. Termination for Cause - Either party may terminate the agreement immediately upon written notice if the other party commits a material breach of any term or condition of the agreement.
+3. There is also mention of the consequences of termination, particularly regarding liquidated damages.
+
+Thanks for asking!
+
+**AI Response to the question:** 'How many equipment does supplier need to support?'
+
+ The supplier needs to support a total of 6 pieces of equipment, which includes 3 production servers and 2 network devices, as well as the core application database. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'Can you list down the equipment?'
+
+ The equipment listed in the document includes:
+
+1. **Core Financial Application Modules**:
+   - Financial Suite General Ledger (GL) v5.12.0
+   - Financial Suite Accounts Payable (AP) v5.12.0
+   - Core Application Database SQL Server 2019 Enterprise
+
+2. **Production Servers (3 Total)**:
+   - Asset ID: ABC-FS-001
+     - Server Name: FS-PROD-APP01
+     - Function/Role: Primary Application Server
+     - Operating System: Windows Server 2022
+     - Location/Rack: Rack B, U21
+   - Asset ID: ABC-FS-002
+     - Server Name: FS-PROD-DB01
+     - Function/Role: Core Database Server
+     - Operating System: Windows Server 2022
+     - Location/Rack: Rack B, U22
+   - Asset ID: ABC-FS-003
+     - Server Name: FS-PROD-WEB01
+     - Function/Role: Web/Interface Server
+     - Operating System: Windows Server 2019
+     - Location/Rack: Rack B, U23
+
+3. **Primary Network Switching Infrastructure**:
+   - Asset ID: ABC-NW-010
+     - Device Name: SW-CORE-RKB
+     - Type: Core Data Center Switch
+     - Model / Series: Cisco Catalyst 9500
+     - Location: Rack B
+   - Asset ID: ABC-NW-011
+     - Device Name: SW-ACCESS-RKB
+     - Type: Rack Access Switch
+     - Model / Series: Cisco Catalyst 2960X
+     - Location: Rack B
+
+Thanks for asking!
+
+
+
+**AI Response to the question:** 'What is the duration of the contract?'
+
+ The duration of the contract consists of an initial term of two (2) years, which will automatically renew for successive one (1) year periods unless either party provides written notice of its intention not to renew at least ninety (90) days prior to the expiration of the initial term or any subsequent renewal term. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'What is the date of the contract?'
+
+ The contract is made and entered into as of 30 October 2025. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'What is the confidentiality requirement?'
+
+ The confidentiality requirement in the contract specifies that "Confidential Information" means all non-public information, including, but not limited to, financial data, business plans, system architecture, security policies, and any user data stored in the Covered Systems. The Service Provider is obligated to maintain the Authority's Confidential Information in strict confidence and only use it for the purposes of performing services under the Agreement. They can only disclose Confidential Information to employees or approved sub-contractors on a strict "need-to-know" basis. 
+
+Thanks for asking!
+
+
