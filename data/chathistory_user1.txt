@@ -127,24 +127,57 @@ Thanks for asking!
 
 Thanks for asking!
 
-
-
 **AI Response to the question:** 'What is the duration of the contract?'
 
  The duration of the contract consists of an initial term of two (2) years, which will automatically renew for successive one (1) year periods unless either party provides written notice of its intention not to renew at least ninety (90) days prior to the expiration of the initial term or any subsequent renewal term. 
 
 Thanks for asking!
 
-**AI Response to the question:** 'What is the date of the contract?'
 
- The contract is made and entered into as of 30 October 2025. 
+**AI Response to the question:** 'What year was this agreement made?'
 
-Thanks for asking!
-
-**AI Response to the question:** 'What is the confidentiality requirement?'
-
- The confidentiality requirement in the contract specifies that "Confidential Information" means all non-public information, including, but not limited to, financial data, business plans, system architecture, security policies, and any user data stored in the Covered Systems. The Service Provider is obligated to maintain the Authority's Confidential Information in strict confidence and only use it for the purposes of performing services under the Agreement. They can only disclose Confidential Information to employees or approved sub-contractors on a strict "need-to-know" basis. 
+ The agreement was made in 2025. 
 
 Thanks for asking!
 
+**AI Response to the question:** 'When did the contract begin? '
+
+ The contract began on 30 October 2025, which is the Effective Date indicated in the agreement. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'When did the contract start?'
+
+ The contract started on 30 October 2025, which is the Effective Date indicated in the agreement.  
+
+Thanks for asking!
+
+**AI Response to the question:** 'When was the contract started?'
+
+ The contract started on 30 October 2025, which is the Effective Date indicated in the agreement. 
+
+Thanks for asking!
+
+**AI Response to the question:** 'How much you know about the contract?'
+
+ I have details about the IT System Maintenance and Service Level Agreement that covers aspects such as the scope of services, penalties for breaches, term and renewal conditions, and termination provisions. The contract was entered into on October 30, 2025, and outlines the obligations of the Service Provider, TECHSERVE GLOBAL SOLUTIONS, to maintain and support the Authority's Core Financial Systems.
+
+Thanks for asking!
+
+
+**AI Response to the question:** 'Can provide the important contacts?'
+
+ The important contacts are as follows:
+
+**Authority (Customer)**: 
+- **Name**: Mr. Tan Ah Meng
+- **Email**: tan_ah_meng@abc.gov.sg
+- **Phone**: 91234567
+
+**Service Provider (TechServe)**: 
+- **Name**: Mr. Lim Ah Ben
+- **Email**: lim_ah_ben@techserve.com
+- **Phone**: 98765432
+
+Thanks for asking!
 

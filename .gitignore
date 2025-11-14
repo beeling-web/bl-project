@@ -25,3 +25,9 @@ dist/
 
 #Archive
 .archive/
+
+# Ignore temporary Microsoft Office lock files
+~$*
+
+# Ignore local Chroma DB files
+chroma_langchain_db/
