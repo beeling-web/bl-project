@@ -48,12 +48,16 @@ print(splitted_documents[4])
 # The specified model is 'text-embedding-3-small'.
 embeddings_model = OpenAIEmbeddings(model='text-embedding-3-small')
 
+
 vector_store = Chroma.from_documents(
     collection_name="contracts",
     documents=splitted_documents,
     embedding=embeddings_model,
     persist_directory="./chroma_langchain_db",  # Where to save data locally, remove if not neccesary
 )
+
+
+
 
 ##testing the number of vector_store created - commented after successly done
 '''
