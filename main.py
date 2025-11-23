@@ -2,13 +2,27 @@
 import streamlit as st
 import pandas as pd
 # from helper_functions import llm
-from logics import rag
-from logics.rag import rag_chain 
+#from logics import rag
+#from logics.rag import rag_chain 
+from logics.load_vectorstore import load_persisted_vector_store # NEW IMPORT
+from logics.rag import get_rag_chains # MODIFIED IMPORT (to get all chains)
 from logics.chat_history_handler import save_content
 from logics.chat_history_handler import read_and_compare
 from helper_functions.utility import check_password  
+import os # NEW IMPORT for error handling
 
-
+# --- RAG INITIALIZATION (LOADS DB ON APP START) ---
+# 1. Load the Persisted Vector Store once when the app starts
+try:
+    vector_store = load_persisted_vector_store()
+    # 2. Initialize all RAG chains using the loaded vector store
+    rag_chain, rag_extract_chain, rag_summary_chain = get_rag_chains(vector_store)
+except FileNotFoundError as e:
+    # If the database folder is missing, display an error and stop the app
+    st.error(str(e))
+    st.info("Please run the 'build_database.py' script locally and commit the resulting 'chroma_langchain_db' folder.")
+    st.stop()
+# ----------------------------------------------------
 
 # 1. Session State Initialization 
 # Initialise a session called "messages" to store the previous chat records

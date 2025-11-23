@@ -32,7 +32,7 @@ st.markdown("""
     | :--- | :--- |
     | **Objective** | To significantly **reduce review time** by offering high-accuracy **AI-powered Q&A, extraction, and summarization** based purely on the provided contract text. |
     | **Scope** | Development of a robust RAG and three key user features for efficient contract understanding. |
-    | **Data Source** | **Contract Documents** (PDF, DOCX, etc.) which are **chunked, embedded, and stored** in the **Vector Store**. |
+    | **Data Source** | **Contract Documents** which is **chunked, embedded, and stored** in the **Vector Store**. |
 """)
 
 st.markdown("---")

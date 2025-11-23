@@ -2,9 +2,26 @@
 import streamlit as st
 import pandas as pd
 # from helper_functions import llm
-from logics import rag
-from logics.rag import rag_chain, rag_extract_chain
+from logics.load_vectorstore import load_persisted_vector_store # NEW IMPORT
+from logics.rag import get_rag_chains # MODIFIED IMPORT (to get all chains)
+
+#from logics import rag
+#from logics.rag import rag_chain, rag_extract_chain
 from helper_functions.utility import check_password  
+import os # NEW IMPORT for error handling
+
+
+# --- RAG INITIALIZATION (LOADS DB ON APP START) ---
+# 1. Load the Persisted Vector Store once when the app starts
+try:
+    vector_store = load_persisted_vector_store()
+    # 2. Initialize all RAG chains using the loaded vector store
+    rag_chain, rag_extract_chain, rag_summary_chain = get_rag_chains(vector_store) # NOTE: We need rag_extract_chain here
+except FileNotFoundError as e:
+    st.error(str(e))
+    st.info("Please run the 'build_database.py' script locally and commit the resulting 'chroma_langchain_db' folder.")
+    st.stop()
+# ----------------------------------------------------
 
 
 # region <--------- Streamlit App Configuration --------->
